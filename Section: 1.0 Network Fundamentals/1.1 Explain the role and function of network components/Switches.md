@@ -11,3 +11,7 @@ Clients, servers, and other endpoints on an IPv4 network can dynamically learn t
 
 A Cisco IOS router also uses ARP to discover the layer 2 addresses of other devices on the same network. However, the commands to see the arp cache are slightly different than on a Windows or Linux computer.
 
+Summary
+- Primary job of a switch is to forward and filter L2 frames to destination MAC addresses
+- Learning by looking at the frame header source MAC addresses and interface then dynamically build its CAM table with the mappings
+
